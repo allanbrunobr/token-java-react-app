@@ -1,13 +1,35 @@
-# Ignorar arquivos do sistema
+# IDEs
+.idea/
+*.iml
+
+# macOS
 .DS_Store
 
-# Ignorar arquivos temporários e de build
-build/
-gradle/
+# Gradle
 .gradle/
-*.jar
-*.war
+build/
+
+# Docker
+.dockerignore
+
+# Logs
+*.log
+
+# Compiled class file
 *.class
 
-# Ignorar arquivos de configuração sensíveis
-src/main/resources/serviceAccountKey.json
+# JAR files
+*.jar
+
+# Gradle Wrapper
+gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration files
+*.properties
+
+# Environment files
+.env
+
+# Other
+*.swp
+*~
