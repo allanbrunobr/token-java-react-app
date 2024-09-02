@@ -20,4 +20,7 @@ COPY --from=build /app/build/libs/*.jar app.jar
 
 EXPOSE 8080
 
+ENV GOOGLE_APPLICATION_CREDENTIALS=/app/gcp-credentials.json
+ENV SPRING_CLOUD_GCP_PROJECT_ID=app-springboot-project
+
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]
