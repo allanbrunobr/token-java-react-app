@@ -24,9 +24,6 @@ build/
 # Gradle Wrapper
 gradle/wrapper/gradle-wrapper.jar
 
-# Local configuration files
-*.properties
-
 # Environment files
 .env
 
